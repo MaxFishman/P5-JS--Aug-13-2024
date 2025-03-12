@@ -2,7 +2,7 @@ let shapes = [];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  frameRate(30); // Adjust the frame rate for smoother animation
+  frameRate(60); // Adjust the frame rate for smoother animation
   for (let i = 0; i < 200; i++) {
     shapes.push(new Shape(random(width / 6, width * 5 / 6), random(height / 6, height * 5 / 6), 30));
   }
