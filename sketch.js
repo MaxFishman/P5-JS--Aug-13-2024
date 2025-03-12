@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-  background(255);
+  background(0);
   let squareSize = min(width, height) * 0.8;
   let xOffset = (width - squareSize) / 2;
   let yOffset = (height - squareSize) / 2;
